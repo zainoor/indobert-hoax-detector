@@ -3,6 +3,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
 from langdetect import detect
 import re
+import summa
 
 # Konfigurasi halaman
 st.set_page_config(page_title="IndoHoaxDetector 🔎", layout="centered")
